@@ -10,9 +10,12 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
   background-color: antiquewhite;
-  align-content: center;
 }
 
 #response {
     visibility: hidden;
+}
+
+div {
+    align-content: center;
 }
