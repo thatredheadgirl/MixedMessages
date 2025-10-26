@@ -14,7 +14,7 @@ const activity = ["take a walk", "clean the house", "bake a treat", "read a book
 const generateMessage = () => {
     let a = Math.floor(Math.random()*5);
     let b = Math.floor(Math.random()*12);
-    let c = Math.floor(Math.random()*9);
+    let c = Math.floor(Math.random()*activity.length);
 
     document.getElementById("response").innerHTML = `You are having ${typeOfLuck[a]} luck. Your lucky colour is ${colour[b]} and today you should ${activity[c]}.`
 
