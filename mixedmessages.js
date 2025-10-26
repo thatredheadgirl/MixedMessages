@@ -19,3 +19,4 @@ const generateMessage = () => {
     return `You are having ${typeOfLuck[a]} luck. Your lucky colour is ${colour[b]} and today you should ${activity[c]}.`
 }
 
+console.log(generateMessage());
