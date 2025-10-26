@@ -16,7 +16,9 @@ const generateMessage = () => {
     let b = Math.floor(Math.random()*12);
     let c = Math.floor(Math.random()*9);
 
-    return `You are having ${typeOfLuck[a]} luck. Your lucky colour is ${colour[b]} and today you should ${activity[c]}.`
+    document.getElementById("response").innerHTML = `You are having ${typeOfLuck[a]} luck. Your lucky colour is ${colour[b]} and today you should ${activity[c]}.`
+
+    //return `You are having ${typeOfLuck[a]} luck. Your lucky colour is ${colour[b]} and today you should ${activity[c]}.`
 }
 
 console.log(generateMessage());
