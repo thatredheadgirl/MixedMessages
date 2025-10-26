@@ -17,7 +17,7 @@ const generateMessage = () => {
     let c = Math.floor(Math.random()*activity.length);
 
     document.getElementById("response").innerHTML = `You are having ${typeOfLuck[a]} luck. Your lucky colour is ${colour[b]} and today you should ${activity[c]}.`
-
+    document.getElementById("response").style.visibility = "visible";
     //return `You are having ${typeOfLuck[a]} luck. Your lucky colour is ${colour[b]} and today you should ${activity[c]}.`
 }
 

@@ -13,4 +13,6 @@ body {
   align-content: center;
 }
 
-
+#response {
+    visibility: hidden;
+}
